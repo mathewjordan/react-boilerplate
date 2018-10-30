@@ -1,5 +1,7 @@
+const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
+    entry: path.join(__dirname, "./resources/utk-lib-header/src/index.js"),
     module: {
         rules: [
             {
@@ -21,7 +23,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html",
+            template: path.join(__dirname, "./resources/utk-lib-header/src/index.html"),
             filename: "./index.html"
         })
     ]
