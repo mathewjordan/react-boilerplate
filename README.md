@@ -1,4 +1,4 @@
-##Requirements
+## Requirements
 [Yarn](https://yarnpkg.com/lang/en/docs/install)
 
 ## Install Webpack, Babel, and React
@@ -6,7 +6,7 @@
 2. Run `yarn`
 3. If build process complete, a `node_modules` directory have been generated
 
-##Other Commands
+## Other Commands
 
 - Run webpack build process: 
 `yarn build`
