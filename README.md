@@ -10,5 +10,4 @@
 
 - Run webpack build process: 
 `yarn build`
-
 - Open react app in browser for active development: `yarn start`
